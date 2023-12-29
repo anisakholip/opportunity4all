@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="277.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Updateptisi">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/25.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="8.0" mnemonicParsing="false" opacity="0.0" text="kembali" />
+      <TextArea fx:id="inputupdate" layoutX="31.0" layoutY="440.0" prefHeight="102.0" prefWidth="214.0" promptText="Inputkan update" style="-fx-background-radius: 20;" />
+      <Button layoutX="32.0" layoutY="553.0" mnemonicParsing="false" onMouseClicked="#save" prefHeight="26.0" prefWidth="214.0" text="Save" />
+   </children>
+</AnchorPane>
